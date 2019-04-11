@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Diabolo_Release_SimpleTree_Beta_4.33.06_Computree 5.0.054b.zip - SimpleTree Beta Version - ONF - Département R&amp;D</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="BRj/Hjbw+z2hSuHWKnjcTvtlakuRmgcjHXL4svJ7DtHn5+NAioC4XDBKoITdbGnFv8CvGLqUj8nysd4vzTrP2A==" />
+<link rel='shortcut icon' href='/favicon.ico?1506781134' />
+<link rel="stylesheet" media="all" href="/stylesheets/jquery/jquery-ui-1.11.0.css?1506781134" />
+<link rel="stylesheet" media="all" href="/themes/onf/stylesheets/application.css?1507196912" />
+<link rel="stylesheet" media="all" href="/stylesheets/responsive.css?1506781134" />
+
+<script src="/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js?1507295546"></script>
+<script src="/javascripts/application.js?1506781134"></script>
+<script src="/javascripts/responsive.js?1506781134"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="screen" href="/plugin_assets/redmine_git_hosting/stylesheets/application.css?1507196513" />
+<script src="/plugin_assets/redmine_git_hosting/javascripts/plugin.js?1507196513"></script>
+ <link rel="stylesheet" media="screen" href="/plugin_assets/wiking/stylesheets/wiking.css?1507196513" /> <link rel="stylesheet" media="screen" href="/plugin_assets/redmine_agile/stylesheets/redmine_agile.css?1507196513" /> <script src="/plugin_assets/redmine_checklists/javascripts/checklists.js?1507196513"></script><link rel="stylesheet" media="screen" href="/plugin_assets/redmine_checklists/stylesheets/checklists.css?1507196513" />
+<!-- page specific tags -->
+    <link rel="stylesheet" media="screen" href="/stylesheets/scm.css?1506781134" /></head>
+<body class="theme-Onf project-computree-simpletree-beta-version controller-attachments action-show">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/projects/computree-simpletree-beta-version/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="login" href="/login">Sign in</a></li><li><a class="register" href="/account/register">Register</a></li></ul>    </div>
+    
+    <ul><li><a class="home" href="/">Home</a></li><li><a class="projects" href="/projects">Projects</a></li><li><a class="help" href="http://rdinnovation.onf.fr/projects/help-rdinnovation/wiki/Fr_wiki">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/projects/computree-simpletree-beta-version/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="scope" />
+        
+        <label for='q'>
+          <a accesskey="4" href="/projects/computree-simpletree-beta-version/search">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">SimpleTree Beta Version</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/projects/autocomplete.js?jump=files" autocomplete="off" /></div><div class="drdn-items projects selection"></div><div class="drdn-items all-projects selection"><a href="/projects?jump=files">All Projects</a></div></div></div>
+    </div>
+
+    <h1><span class="breadcrumbs"><a class="root" href="/projects/computree?jump=files">03 - Computree</a><span class="separator"> &raquo; </span><a class="ancestor" href="/projects/plugin-simpletree?jump=files">Plugin SimpleTree</a><span class="separator"> &raquo; </span></span><span class="current-project">SimpleTree Beta Version</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li><a class="overview" href="/projects/computree-simpletree-beta-version">Overview</a></li><li><a class="activity" href="/projects/computree-simpletree-beta-version/activity">Activity</a></li><li><a class="wiki" href="/projects/computree-simpletree-beta-version/wiki">Wiki</a></li><li><a class="files selected" href="/projects/computree-simpletree-beta-version/files">Files</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="nosidebar">
+    <div id="sidebar">
+        
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+  <a class="icon icon-download" href="/attachments/download/1970/Diabolo_Release_SimpleTree_Beta_4.33.06_Computree%205.0.054b.zip">Download (113 MB)</a></div>
+
+<h2>Diabolo_Release_SimpleTree_Beta_4.33.06_Computree 5.0.054b.zip</h2>
+
+<div class="attachments">
+<p>
+   <span class="author"><a href="/users/hacke78">Hackenberg Jan</a>, 08/18/2017 03:42 PM</span></p>
+</div>
+
+  <p class="nodata">
+    No preview available. <a class="icon icon-download" href="/attachments/download/1970/Diabolo_Release_SimpleTree_Beta_4.33.06_Computree%205.0.054b.zip">Download</a> the file instead.
+</p>
+
+
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2017 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

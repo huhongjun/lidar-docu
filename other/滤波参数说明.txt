@@ -1,0 +1,17 @@
+void MorphFilter<T,PointT>::DoMorphFilter(vector<PointT> &pts,T cellSize,T maxBuildingSize,T slope,T minDH,T maxDH,T volatility
+形态学滤波参数设置：
+1）cellSize 网格大小：点与格网化的网格边长，单位为米；取值大小可根据点云的
+密度以及点云的数据量大小确定，一般取 5m～10m较为合适；
+2）maxBuildingSize 最大建筑尺寸：该参数可根据数据当中最大的地物占用面积确定；
+3）minDH 最小高差：为低地物点的高度；
+4）maxDH 最大高差：为最高地物的高度；
+5）volatility 波动范围：为原始地面点云与格网数据的高差阀值，一般取值 0.5m～1m
+较为合适；
+6）slope 坡度：为相邻格网内两中心点的坡度。
+
+void SlopeFilter<T, PointT>::GroundFilter(T cellSize,T max_slope,int winSize)
+
+1）cellSize 点与格网化的网格边长，单位为米。取值大小可根据点云的密度以及点
+云的数据量大小确定，一般取 3m～6m较为合适；
+2）max_slope 最大坡度：相邻格网中心点连线的坡度，根据地形确定；
+3）winSize 搜索窗口大小：取值范围为 3～7，一般取奇数值
